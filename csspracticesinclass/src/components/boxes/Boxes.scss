@@ -1,0 +1,16 @@
+.boxes {
+    display: flex;
+    gap: 20px;
+
+    .box {
+        height: 150px;
+        width: 150px;
+        background-color: blue;
+        color: white;
+        font-size: 40px;
+        cursor: pointer;
+    }
+    .box-active {
+        background-color: red !important;
+    }
+}
