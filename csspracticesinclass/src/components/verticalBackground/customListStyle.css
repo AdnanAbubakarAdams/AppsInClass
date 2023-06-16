@@ -1,0 +1,38 @@
+.custom-ol {
+    counter-reset: custom-counter;
+    list-style-type: none;
+    padding-left: 0;
+    font-weight: 800;
+    text-align: left;
+  }
+
+  .custom-ol li {
+    position: relative;
+    padding: 33px;
+    display: flex; /* Use flexbox to align the text vertically */
+    align-items: center; /* Align items vertically */
+    line-height: 1.5; 
+  }
+  
+  .custom-ol li:before {
+    content: counter(custom-counter);
+    counter-increment: custom-counter;
+    position: absolute;
+    left: -1em; /* Adjust the distance as needed */
+    width: 1.5em; /* Adjust the width as needed */
+    /* top: 1px; */
+    text-align: right;
+    color: #5200FF; /* Customize the color */
+    font-weight: 800; /* Customize the font-weight */
+  }
+  .custom-ol li:after {
+    content: "";
+    position: absolute;
+    left: 30%; /* Place the border halfway through */
+    bottom: 0;
+    transform: translateX(-50%);
+    width: 50%; /* Set the width of the border */
+    height: 2px; /* Adjust the height as needed */
+    background-color: #5200FF; /* Customize the border color */
+  }
+  
