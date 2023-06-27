@@ -2,7 +2,7 @@ import React from "react";
 import "./VerticalBackground.scss";
 import "./customListStyle.css";
 
-const verticalBackground = () => {
+const VerticalBackground = () => {
   return (
     <div className="verticalContainer">
       <div className="verticalContainer__background">MostPopular</div>
@@ -35,4 +35,4 @@ const verticalBackground = () => {
   );
 };
 
-export default verticalBackground;
+export default VerticalBackground;
