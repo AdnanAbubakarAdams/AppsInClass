@@ -1,0 +1,19 @@
+.home {
+    display: grid;
+    grid-template-areas: 
+        "h h h"
+        "s s s"
+        "s s s"
+        "s s s"
+    ;
+
+    &__ul {
+    grid-area: s;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 10px;
+    column-gap: 2em;
+    row-gap: 2em;
+    /* border: 1px solid black; */
+    }
+}
