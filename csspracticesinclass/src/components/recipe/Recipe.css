@@ -1,0 +1,32 @@
+table, th, td {
+    
+    margin: auto;
+    border: 1px solid black;
+}
+
+/* .recipe-item-title {
+    font-weight: 700;
+  }
+  .recipe-item-description {
+    font-size: 0.8rem;
+  }
+  table {
+    border: 1px solid black;
+  }
+  
+  .filters {
+    display: flex;
+    margin-bottom: 1rem;
+  }
+  .filters > * {
+    margin-right: 1rem;
+  }
+  
+  .filter-title {
+    font-size: 1rem;
+    margin-bottom: 0.25rem;
+  }
+  
+  thead th {
+    background-color: rgba(0, 0, 0, 0.1);
+  } */

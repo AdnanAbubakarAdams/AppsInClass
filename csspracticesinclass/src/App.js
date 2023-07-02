@@ -5,9 +5,11 @@ import Boxes from "./components/boxes/Boxes";
 import OrangeSky from "./components/orangeSky/OrangeSky";
 import VerticalBackground from "./components/verticalBackground/VerticalBackground";
 import CatFactsCard from "./components/catFacts/CatFactsCard";
+import StudentList from "./components/studentList/StudentList";
 // import Home from "./pages/Home";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import RecipeList from "./components/recipe/RecipeList";
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
           <Route path="/orangesky" element={<OrangeSky />} />
           <Route path="/vertical" element={<VerticalBackground />} />
           <Route path="/catfacts" element={<CatFactsCard />} />
+          <Route path="/students" element={<StudentList />} />
+          <Route path="/recipe" element={<RecipeList />} />
         </Routes>
       </Router>
     </div>
