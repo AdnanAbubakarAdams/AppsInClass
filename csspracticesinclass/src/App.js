@@ -10,6 +10,7 @@ import StudentList from "./components/studentList/StudentList";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import RecipeList from "./components/recipe/RecipeList";
+import Carrom from "./components/carrom/Carrom";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path="/catfacts" element={<CatFactsCard />} />
           <Route path="/students" element={<StudentList />} />
           <Route path="/recipe" element={<RecipeList />} />
+          <Route path="/carrom" element={<Carrom />} />
         </Routes>
       </Router>
     </div>
