@@ -6,6 +6,7 @@ import OrangeSky from "./components/orangeSky/OrangeSky";
 import VerticalBackground from "./components/verticalBackground/VerticalBackground";
 import CatFactsCard from "./components/catFacts/CatFactsCard";
 import StudentList from "./components/studentList/StudentList";
+import SignUpForm from "./components/signUp/SignUpForm";
 // import Home from "./pages/Home";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
@@ -26,6 +27,7 @@ function App() {
           <Route path="/students" element={<StudentList />} />
           <Route path="/recipe" element={<RecipeList />} />
           <Route path="/carrom" element={<Carrom />} />
+          <Route path="/signup" element={<SignUpForm />} />
         </Routes>
       </Router>
     </div>
