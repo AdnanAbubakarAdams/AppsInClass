@@ -1,0 +1,13 @@
+.grid-container {
+    display: grid;
+    grid-template: repeat(3, 150px) / repeat(3, 150px);
+    // grid-template-rows: repeat(3, 150px);
+    // grid-template-columns: repeat(3, 150px);
+    border: 2.5px solid black;
+    width: 450px;
+    margin: 0 auto;
+}
+
+.grid-container, .grid-container div {
+    border: 2.5px solid black;
+}

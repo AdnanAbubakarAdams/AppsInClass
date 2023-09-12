@@ -7,6 +7,7 @@ import VerticalBackground from "./components/verticalBackground/VerticalBackgrou
 import CatFactsCard from "./components/catFacts/CatFactsCard";
 import StudentList from "./components/studentList/StudentList";
 import SignUpForm from "./components/signUp/SignUpForm";
+import SquareGrid from "./components/square-grid/SquareGrid";
 // import Home from "./pages/Home";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
@@ -28,6 +29,7 @@ function App() {
           <Route path="/recipe" element={<RecipeList />} />
           <Route path="/carrom" element={<Carrom />} />
           <Route path="/signup" element={<SignUpForm />} />
+          <Route path="/grid" element={<SquareGrid />} />
         </Routes>
       </Router>
     </div>
